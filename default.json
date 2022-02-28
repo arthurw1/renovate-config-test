@@ -16,10 +16,14 @@
   },
   "packageRules": [
     {
-      "matchManagers": ["buildkite", "npm", "nvm"],
+      "matchManagers": ["buildkite", "npm"],
 
       "commitMessageExtra": "{{newValue}}",
       "commitMessageTopic": "{{depName}}"
+    },
+    {
+      "matchManagers": ["nvm"],
+      "enabled": false
     },
     {
       "matchDepTypes": ["dependencies"],
