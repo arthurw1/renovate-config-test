@@ -9,7 +9,8 @@
     "preview:buildkite",
     "preview:dockerCompose",
     "docker:disableMajor",
-    "group:monorepos"
+    "group:monorepos",
+    ":disableMajorUpdates"
   ],
   "lockFileMaintenance": {
     "enabled": true
