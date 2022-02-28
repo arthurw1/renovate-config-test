@@ -26,12 +26,6 @@
       "enabled": false
     },
     {
-      "matchDepTypes": ["dependencies"],
-      "matchManagers": ["npm"],
-
-      "semanticCommitType": "fix"
-    },
-    {
       "excludePackageNames": ["aws-sdk", "aws-cdk"],
       "excludePackagePatterns": ["^@aws-sdk/", "^@aws-cdk/"],
       "matchDepTypes": ["devDependencies"],
